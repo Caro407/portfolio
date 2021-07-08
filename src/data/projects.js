@@ -22,6 +22,30 @@ const projects = [
       back: "Rails API",
       css: "tailwind"
     }
+  },
+  {
+    title: "The Hyper Program",
+    slug: "the-hyper-program",
+    pitch: "Website to look for new games and be updated with last tendances.",
+    duration: 14,
+    members: 4,
+    frameworks: {
+      front: "Next.js",
+      back: "Rails API",
+      css: "tailwind"
+    }
+  },
+  {
+    title: "Need a 4th",
+    slug: "need-one-more",
+    pitch: "Website to look for new games and be updated with last tendances.",
+    duration: 14,
+    members: 4,
+    frameworks: {
+      front: "Next.js",
+      back: "Rails API",
+      css: "tailwind"
+    }
   }
 ];
 

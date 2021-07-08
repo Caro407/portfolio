@@ -14,8 +14,8 @@ const Project = () => {
   );
 
   return (
-    <div>
-      {(currentProject !== undefined) ? <h2>{currentProject.title}</h2> : <p>Error</p>}
+    <div className="container">
+      {(currentProject !== undefined) ? <h2 className="font-bold text-3xl my-3">{currentProject.title}</h2> : <p>Error</p>}
     </div>
   )
 };

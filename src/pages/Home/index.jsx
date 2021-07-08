@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <main className="container">
-      <h1 className="text-center text-5xl">Portfolio de moi</h1>
+      <h1 className="text-center text-5xl mt-5">Portfolio de moi</h1>
       <Presentation />
       <Skills/>
       <Projects />

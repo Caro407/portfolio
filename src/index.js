@@ -20,9 +20,6 @@ const App = () => {
       <Router>
         <Navbar/>
         <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
           <Route path="/about">
             <Presentation />
           </Route>
