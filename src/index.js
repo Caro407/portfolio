@@ -6,11 +6,34 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+import Navbar from './components/Navbar'
+import Presentation from './sections/Presentation'
+import Projects from './sections/Projects'
 
 const App = () => {
 
   return (
-    <h1>Hello</h1>
+    <>
+      <Router>
+        <main>
+          <h1 className="text-center text-5xl">Portfolio de moi</h1>
+          <Navbar/>
+          <Presentation />
+          <Projects />
+        </main>
+        <Switch>
+          <Route path="/home">
+            <Presentation />
+          </Route>
+          <Route path="/about">
+            <Presentation />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   )
 }
 
