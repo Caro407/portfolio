@@ -2,6 +2,7 @@ import React from 'react';
 import Presentation from './../sections/Presentation';
 import Skills from './../sections/Skills';
 import Projects from './../sections/Projects';
+import Contact from './../sections/Contact';
 
 const Home = () => {
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Presentation />
       <Skills/>
       <Projects />
+      <Contact />
     </main>
   )
 };

@@ -7,6 +7,7 @@ import {
   Switch,
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Presentation from './pages/sections/Presentation';
 import Skills from './pages/sections/Skills';
 import Projects from './pages/sections/Projects';
@@ -19,23 +20,24 @@ const App = () => {
     <>
       <Router>
         <Navbar/>
-        <Switch>
-          <Route path="/about">
-            <Presentation />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/projects/:project">
-            <Project />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+          <Switch>
+            <Route path="/about">
+              <Presentation />
+            </Route>
+            <Route path="/skills">
+              <Skills />
+            </Route>
+            <Route path="/projects/:project">
+              <Project />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        <Footer />
       </Router>
     </>
   )
