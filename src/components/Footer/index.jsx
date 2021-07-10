@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer>
-    <p>site fait par moi</p>
+  <footer className="border-t mt-5">
+    <p className="text-center">site fait par moi</p>
   </footer>
 );
 

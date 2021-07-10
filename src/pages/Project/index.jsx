@@ -1,8 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import projects from './../../data/projects';
+import ProjectDetails from './../../components/ProjectDetails';
 
-const Project = () => {
+const Project = (props) => {
   const { project } = useParams();
   const [currentProject, setCurrentProject] = React.useState(undefined);
 
@@ -15,8 +16,7 @@ const Project = () => {
 
   return (
     <div className="container">
-      {(currentProject !== undefined) ? <h2 className="font-bold text-3xl my-3">{currentProject.title}</h2> : <p>Error</p>}
-      <p className="italic">{currentProject.pitch}</p>
+      {(currentProject !== undefined) ? <ProjectDetails project={currentProject} /> : <p>Error</p>}
     </div>
   )
 };

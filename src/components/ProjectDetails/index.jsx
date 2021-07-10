@@ -1,0 +1,13 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const ProjectDetails = (props) => {
+  return (
+    <div>
+      <h2 className="font-bold text-3xl my-3">{props.project.title}</h2>
+      <p className="text-sm italic py-2">{props.project.pitch}</p>
+    </div>
+  )
+};
+
+export default ProjectDetails;
