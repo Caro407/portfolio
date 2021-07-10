@@ -9,7 +9,15 @@ const projects = [
       front: "Rails",
       back: "Rails",
       css: "bootstrap"
-    }
+    },
+    details: [
+      {
+        insight: "2 Devise for always more fun !"
+      },
+      {
+        insight: "An admin platform to validate our artists."
+      }
+    ]
   },
   {
     title: "Ousia",
@@ -21,7 +29,15 @@ const projects = [
       front: "Next.js",
       back: "Rails API",
       css: "tailwind"
-    }
+    },
+    details: [
+      {
+        insight: "A Fullstack project. Oui monsieur. "
+      },
+      {
+        insight: "An admin platform to manage all the orders and items sold on the site."
+      }
+    ]
   },
   {
     title: "The Hyper Program",
@@ -33,7 +49,12 @@ const projects = [
       front: "Next.js",
       back: "Rails API",
       css: "tailwind"
-    }
+    },
+    details: [
+      {
+        insight: "An SPA build from scratch"
+      }
+    ]
   },
   {
     title: "Need a 4th",
@@ -45,7 +66,12 @@ const projects = [
       front: "Next.js",
       back: "Rails API",
       css: "tailwind"
-    }
+    },
+    details: [
+      {
+        insight: "Not inspired yet."
+      }
+    ]
   }
 ];
 
