@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="divider m-auto w-64 h-2 mb-3"></div>
       <p>En tant que bébé dev, j'ai déjà pu travailler sur :</p>
       <div className="grid grid-cols-2 mt-3">
-        {projects.map(project => <ProjectPreview project={project}/>)}
+        {projects.map((project, index) => <ProjectPreview project={project} key={`project-${index}`}/>)}
       </div>
     </section>
   )

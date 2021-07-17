@@ -4,7 +4,7 @@ const projects = [
     slug: "get-a-band",
     pitch: "Platform for married-to-be couples to book an artist for their wedding.",
     duration: 14,
-    github: "https://github.com/Caro407/THP_Get_A_Band_Final_Project",
+    github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
     website_link: "https://get-a-band.herokuapp.com/",
     members: 4,
     frameworks: {
@@ -40,6 +40,8 @@ const projects = [
     title: "Ousia",
     slug: "ousia",
     pitch: "Marketplace for a new alcohol-free cocktails startup.",
+    github: ["https://github.com/EmmanuelQuere/Ousia-front/tree/MVP", "https://github.com/EmmanuelQuere/Ousia-back/tree/MVP"],
+    website_link: "https://ousia-front.herokuapp.com",
     duration: 14,
     members: 4,
     frameworks: {
@@ -79,6 +81,8 @@ const projects = [
     slug: "the-hyper-program",
     pitch: "Website to look for new games and be updated with last tendances.",
     duration: 14,
+    github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
+    website_link: "",
     members: 4,
     frameworks: {
       front: "Next.js",
@@ -87,7 +91,7 @@ const projects = [
     },
     details: [
       {
-        insight: "An SPA build from scratch"
+        insight: "A SPA build from scratch"
       }
     ]
   },
@@ -95,6 +99,8 @@ const projects = [
     title: "Need a 4th",
     slug: "need-one-more",
     pitch: "Website to look for new games and be updated with last tendances.",
+    github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
+    website_link: "",
     duration: 14,
     members: 4,
     frameworks: {

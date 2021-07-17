@@ -48,3 +48,12 @@ h1 {
   width: 100px;
   height: 100px;
 }
+
+.github-link {
+  background-image: url(./images/logo_github.png);
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
