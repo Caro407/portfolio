@@ -7,6 +7,7 @@ const projects = [
     github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
     website_link: "https://get-a-band.herokuapp.com/",
     members: 4,
+    technos: ["Rails", "bootstrap"],
     frameworks: {
       front: "Rails",
       back: "Rails",
@@ -44,6 +45,7 @@ const projects = [
     website_link: "https://ousia-front.herokuapp.com",
     duration: 14,
     members: 4,
+    technos: ["Next.js", "Rails API", "tailwind"],
     frameworks: {
       front: "Next.js",
       back: "Rails API",
@@ -84,10 +86,11 @@ const projects = [
     github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
     website_link: "",
     members: 4,
+    technos: ["JS", "bootstrap"],
     frameworks: {
-      front: "Next.js",
+      front: "JS Vanilla",
       back: "Rails API",
-      css: "tailwind"
+      css: "bootstrap"
     },
     details: [
       {
@@ -103,6 +106,7 @@ const projects = [
     website_link: "",
     duration: 14,
     members: 4,
+    technos: ["Next.js", "Rails API", "tailwind"],
     frameworks: {
       front: "Next.js",
       back: "Rails API",

@@ -6,6 +6,10 @@ const ProjectPreview = (props) => {
     <div className="border rounded m-1 px-2 py-3">
       <Link to={`/projects/${props.project.slug}`} className="font-bold">{props.project.title}</Link>
       <a href={props.project.github[0]}><div className="github-link"></div></a>
+      <details>
+        <summary>Technologies used</summary>
+        {props.project.technos.map(techno => <li>{techno}</li>)}
+      </details>
       <p className="text-sm italic py-2">{props.project.pitch}</p>
     </div>
   )
