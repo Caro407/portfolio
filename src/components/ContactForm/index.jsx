@@ -4,7 +4,11 @@ const ContactForm = () => {
 
   return (
     <form>
-      <label>Mets le texte ici</label>
+      <label>Subject</label>
+      <input type="text"/>
+      <label>Text</label>
+      <input type="textarea"/>
+      <button type="submit" className="border rounded-sm">Send</button>
     </form>
   )
 };
