@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
 body {
   margin: 0;
   background-color: #1a1a1a;
@@ -53,7 +58,7 @@ h1 {
   background-image: url(./images/logo_github.png);
   background-position: center;
   background-size: cover;
-  width: 30px;
-  height: 30px;
-  filter: invert(1);
+  width: 20px;
+  height: 20px;
+  fill: white;
 }
