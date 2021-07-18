@@ -8,7 +8,7 @@ const ProjectPreview = (props) => {
       <a href={props.project.github[0]}><div className="github-link"></div></a>
       <details>
         <summary>Technologies used</summary>
-        {props.project.technos.map(techno => <li>{techno}</li>)}
+        {props.project.frameworks.map(framework => <li>{framework.name}</li>)}
       </details>
       <p className="text-sm italic py-2">{props.project.pitch}</p>
     </div>

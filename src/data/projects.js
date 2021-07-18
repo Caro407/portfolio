@@ -8,11 +8,16 @@ const projects = [
     website_link: "https://get-a-band.herokuapp.com/",
     members: 4,
     technos: ["Rails", "bootstrap"],
-    frameworks: {
-      front: "Rails",
-      back: "Rails",
-      css: "bootstrap"
-    },
+    frameworks: [
+      {
+        role: "front/back",
+        name: "Rails"
+      },
+      {
+        role: "css",
+        name: "bootstrap"
+      }
+    ],
     details: [
       {
         insight: "Dual Devise usage (for artists and users)"
@@ -46,11 +51,20 @@ const projects = [
     duration: 14,
     members: 4,
     technos: ["Next.js", "Rails API", "tailwind"],
-    frameworks: {
-      front: "Next.js",
-      back: "Rails API",
-      css: "tailwind"
-    },
+    frameworks: [
+      {
+        role: "front",
+        name: "Next.js"
+      },
+      {
+        role: "back",
+        name: "Rails API"
+      },
+      {
+        role: "css",
+        name: "tailwind"
+      }
+    ],
     details: [
       {
         insight: "Fullstack website : Next.js frontend and Rails backend"
@@ -87,11 +101,20 @@ const projects = [
     website_link: "",
     members: 4,
     technos: ["JS", "bootstrap"],
-    frameworks: {
-      front: "JS Vanilla",
-      back: "Rails API",
-      css: "bootstrap"
-    },
+    frameworks: [
+      {
+        role: "front",
+        name: "JS Vanilla"
+      },
+      {
+        role: "back",
+        name: "Rails API"
+      },
+      {
+        role: "css",
+        name: "bootstrap"
+      }
+    ],
     details: [
       {
         insight: "A SPA build from scratch"
@@ -107,11 +130,20 @@ const projects = [
     duration: 14,
     members: 4,
     technos: ["Next.js", "Rails API", "tailwind"],
-    frameworks: {
-      front: "Next.js",
-      back: "Rails API",
-      css: "tailwind"
-    },
+    frameworks: [
+      {
+        role: "front",
+        name: "JS Vanilla"
+      },
+      {
+        role: "back",
+        name: "Rails API"
+      },
+      {
+        role: "css",
+        name: "bootstrap"
+      }
+    ],
     details: [
       {
         insight: "Not inspired yet."
