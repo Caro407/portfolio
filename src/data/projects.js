@@ -28,7 +28,7 @@ const projects = [
         insight: "Search filters built with advanced Active Records queries"
       },
       {
-        insight: "Admin platform management to confirm artists accounts"
+        insight: "Admin platform management to confirm artists accounts using Forest Admin."
       },
       {
         insight: "Payment solution with Stripe"
@@ -75,9 +75,6 @@ const projects = [
       },
       {
         insight: "Agile methodology : daily meetings, sprints plannings, iterations with client"
-      },
-      {
-        insight: "SEO centered web building with Next.js framework"
       },
       {
         insight: "Coordinating pushes to production back / front"

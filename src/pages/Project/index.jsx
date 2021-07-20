@@ -15,7 +15,7 @@ const Project = (props) => {
   );
 
   return (
-    <div className="container">
+    <div className="container mx-auto">
       {(currentProject !== undefined) ? <ProjectDetails project={currentProject} /> : <p>Error</p>}
     </div>
   )

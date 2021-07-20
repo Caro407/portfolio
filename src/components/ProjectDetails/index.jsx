@@ -2,11 +2,20 @@ import React from 'react';
 
 const ProjectDetails = (props) => {
   return (
-    <div>
+    <div className="">
       <h2 className="font-bold text-3xl my-3">{props.project.title}</h2>
-      <p className="text-sm italic py-2">{props.project.description}</p>
+      <p className="italic py-2 mb-3">{props.project.description}</p>
+      <div className="mb-3">
+        Technologies used :
+        <div className="">
+          {props.project.frameworks.map(framework => <li className="inline mx-2">{framework.name}</li>)}
+        </div>
+      </div>
       <img src={props.project.image} alt={`${props.project.slug}`} border="0" />
-      {props.project.details.map(detail => <li>{detail.insight}</li>)}
+      <div className="grid grid-cols-2 my-3">
+        {props.project.details.map(detail => <li className="">{detail.insight}</li>)}
+      </div>
+      <a href={props.project.website_link} className="my-3">{`Visit ${props.project.title}`}</a>
     </div>
   )
 };
