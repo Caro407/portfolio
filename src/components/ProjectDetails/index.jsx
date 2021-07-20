@@ -16,6 +16,7 @@ const ProjectDetails = (props) => {
         {props.project.details.map(detail => <li className="">{detail.insight}</li>)}
       </div>
       <a href={props.project.website_link} className="my-3">{`Visit ${props.project.title}`}</a>
+      <a href={props.project.github[0]}><div className="github-link"></div></a>
     </div>
   )
 };
