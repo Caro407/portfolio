@@ -17,7 +17,6 @@ const Project = (props) => {
   return (
     <div className="container">
       {(currentProject !== undefined) ? <ProjectDetails project={currentProject} /> : <p>Error</p>}
-      <img src="https://portfolio-cl.s3.eu-west-3.amazonaws.com/gab-1.png" alt="gab-1" border="0" />
     </div>
   )
 };
