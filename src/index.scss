@@ -7,13 +7,13 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/regular';
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 body {
   margin: 0;
-  background-color: #1a1a1a;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #ffffff;
+  color: #1d3557;
+  font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,13 +24,13 @@ code {
 }
 
 h1 {
-  background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
-  background-position: center;
-  background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-  text-shadow: 5px 10px;
   font-weight: 800;
+}
+
+.section-div {
+  background-color: #e5e5e5;
+  min-height: 15vh;
+  @apply rounded-sm;
 }
 
 .container {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .divider {
-  background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-color: #e63946;
   background-position: center;
 }
 
