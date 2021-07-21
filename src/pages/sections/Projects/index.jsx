@@ -5,7 +5,7 @@ import ProjectPreview from './../../../components/ProjectPreview'
 const Projects = () => {
   return (
     <section className="mt-3">
-      <h2 className="font-bold text-3xl m-1">Projects</h2>
+      <h2 className="font-bold text-3xl m-1">PROJECTS</h2>
       <div className="divider m-auto w-64 h-1 mb-3"></div>
       <div className="section-div">
         <p>En tant que bébé dev, j'ai déjà pu travailler sur :</p>
