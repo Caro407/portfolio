@@ -6,7 +6,7 @@ const Skills = () => {
       <h2 className="font-bold text-3xl m-1">SKILLS</h2>
       <div className="divider m-auto w-64 h-1 mb-3"></div>
       <div className="section-div">
-        <div className="flex justify-around">
+        <div className="grid lg:grid-cols-2 gap-4 grid-cols-1">
           <div className="w-1/2 sm:w-full">
             <h3 className="font-bold">LANGUAGES</h3>
             <label for="front-frameworks" className="block text-left">Ruby</label>
@@ -26,6 +26,7 @@ const Skills = () => {
               <span className="progress-bar" style={{width: 50+"%"}}></span>
             </div>
           </div>
+
           <div className="w-1/2 sm:w-full">
             <h3 className="font-bold">FRAMEWORKS</h3>
             <label for="front-frameworks" className="block text-left">React & Next.js</label>
