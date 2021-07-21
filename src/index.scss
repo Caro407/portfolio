@@ -91,3 +91,9 @@ h1 {
     background-position: 0
   }
 }
+
+.sendBtn {
+  background-color: #e63946;
+  color: white;
+  @apply px-2 py-1 my-1 rounded;
+}

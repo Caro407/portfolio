@@ -10,9 +10,7 @@ const Contact = () => {
       <div className="section-div">
         <p>Interested ? Let's get in touch</p>
         <div>
-          <button className="border rounded-md px-2 py-1">View resume</button>
-          <br />
-          <a href="https://www.linkedin.com/in/caroline-lefevre-a2512794/" className="border rounded-md px-2 py-1">View LinkedIn</a>
+          <a href="https://www.linkedin.com/in/caroline-lefevre-a2512794/" className="border rounded-md px-2 py-1">Contact me via LinkedIn</a>
         </div>
         <ContactForm />
       </div>
