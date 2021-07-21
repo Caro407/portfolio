@@ -29,9 +29,8 @@ h1 {
 
 .section-div {
   background-color: #e5e5e5;
-  min-height: 15vh;
   width: 60vw;
-  @apply rounded p-2;
+  @apply rounded px-4 py-3;
 }
 
 .container {
@@ -86,5 +85,5 @@ h1 {
 .sendBtn {
   background-color: #e63946;
   color: white;
-  @apply px-2 py-1 my-1 rounded;
+  @apply px-3 py-2 my-1 rounded;
 }
