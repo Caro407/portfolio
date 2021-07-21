@@ -30,11 +30,13 @@ h1 {
 .section-div {
   background-color: #e5e5e5;
   min-height: 15vh;
-  @apply rounded-sm;
+  width: 60vw;
+  @apply rounded p-2;
 }
 
 .container {
   padding: 0 0.5rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
