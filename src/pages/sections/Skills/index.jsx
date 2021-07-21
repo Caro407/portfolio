@@ -9,19 +9,19 @@ const Skills = () => {
         <div className="grid lg:grid-cols-2 gap-4 grid-cols-1">
           <div className="w-1/2 sm:w-full">
             <h3 className="font-bold">LANGUAGES</h3>
-            <label for="front-frameworks" className="block text-left">Ruby</label>
+            <label className="block text-left">Ruby</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 70+"%"}}></span>
             </div>
-            <label for="front-frameworks" className="block text-left">JS (ES5/ES6)</label>
+            <label className="block text-left">JS (ES5/ES6)</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 80+"%"}}></span>
             </div>
-            <label for="front-frameworks" className="block text-left">HTML 5 / CSS 3 / SCSS</label>
+            <label className="block text-left">HTML 5 / CSS 3 / SCSS</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 75+"%"}}></span>
             </div>
-            <label for="front-frameworks" className="block text-left">SQL</label>
+            <label className="block text-left">SQL</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 50+"%"}}></span>
             </div>
@@ -29,19 +29,19 @@ const Skills = () => {
 
           <div className="w-1/2 sm:w-full">
             <h3 className="font-bold">FRAMEWORKS</h3>
-            <label for="front-frameworks" className="block text-left">React & Next.js</label>
+            <label className="block text-left">React & Next.js</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 85+"%"}}></span>
             </div>
-            <label for="front-frameworks" className="block text-left">Ruby on Rails</label>
+            <label className="block text-left">Ruby on Rails</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 70+"%"}}></span>
             </div>
-            <label for="front-frameworks" className="block text-left">Bootstrap</label>
+            <label className="block text-left">Bootstrap</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 80+"%"}}></span>
             </div>
-            <label for="front-frameworks" className="block text-left">Tailwind.css</label>
+            <label className="block text-left">Tailwind.css</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 80+"%"}}></span>
             </div>

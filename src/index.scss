@@ -63,6 +63,7 @@ h1 {
   width: 20px;
   height: 20px;
   fill: white;
+  margin: 0;
 }
 
 .progress {
@@ -78,18 +79,8 @@ h1 {
 .progress-bar {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg,#ffd33d,#ea4aaa 17%,#b34bff 34%,#01feff 51%,#ffd33d 68%,#ea4aaa 85%,#b34bff);
+  background-color: #e63946;
   background-size: 300% 100%;
-  animation: progress-animation 10s linear infinite;
-}
-
-@keyframes progress-animation {
-  0% {
-    background-position: 100%
-  }
-  100% {
-    background-position: 0
-  }
 }
 
 .sendBtn {
