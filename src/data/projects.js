@@ -141,24 +141,19 @@ const projects = [
     ]
   },
   {
-    title: "Need a 4th",
-    slug: "need-one-more",
-    pitch: "Website to look for new games and be updated with last tendances.",
-    description: "",
+    title: "Deep Adventure",
+    slug: "deep-adventure",
+    pitch: "In development project of a mobile application for an existing web video game.",
+    description: "PROJECT CURRENTLY IN DEVELOPMENT. I offered my services to a friend of mine which has created his own web game, called Deep Adventure. His game is currently full developped on Ruby on Rails, and he would like to have a mobile application using React Native.",
     image: "",
-    github: [
-      {
-        link: "https://github.com/Caro407/SPA_Proj",
-        role: "back"
-      }],
     website_link: "",
     duration: 14,
     members: 4,
-    technos: ["Next.js", "Rails API", "tailwind"],
+    technos: ["React Native", "Rails API", "Bulma"],
     frameworks: [
       {
         role: "front",
-        name: "JS Vanilla"
+        name: "React Native"
       },
       {
         role: "back",
@@ -166,13 +161,10 @@ const projects = [
       },
       {
         role: "css",
-        name: "bootstrap"
+        name: "Bulma"
       }
     ],
     details: [
-      {
-        insight: "Not inspired yet."
-      }
     ]
   }
 ];

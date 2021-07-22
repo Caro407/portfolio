@@ -10,7 +10,7 @@ const ProjectPreview = (props) => {
           <a href={props.project.website_link}>
             <i className="fas fa-link"></i>
           </a>
-          <a href={props.project.github[0]}><div className="github-link"></div></a>
+          {props.project.github ? <a href={props.project.github[0]}><div className="github-link"></div></a> : <p></p>}
         </div>
       </div>
       <details>
