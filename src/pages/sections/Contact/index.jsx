@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="section-div">
         <p className="font-bold">If you want more information or get in touch about a professional project, please feel free to contact me !</p>
         <div className="my-2">
-          <a href="https://www.linkedin.com/in/caroline-lefevre-a2512794/" className="border rounded-md px-2 py-1 underline">Contact me via LinkedIn</a>
+          <a href="https://www.linkedin.com/in/caroline-lefevre-a2512794/" className="border rounded-md px-2 py-1 hover:underline">Contact me via LinkedIn</a>
           <p className="block">or send me an email :</p>
         </div>
         <ContactForm />

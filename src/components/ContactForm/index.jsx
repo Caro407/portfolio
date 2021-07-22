@@ -1,11 +1,6 @@
 import React from 'react';
 
 const ContactForm = () => {
-  const contactMe = (event) => {
-    event.preventDefault();
-
-
-  };
 
   return (
     <form action="mailto:lefevre_caroline@outlook.fr" method="GET" >
