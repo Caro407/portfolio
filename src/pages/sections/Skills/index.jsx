@@ -9,13 +9,13 @@ const Skills = () => {
         <div className="grid lg:grid-cols-2 gap-4 grid-cols-1">
           <div className="w-1/2 sm:w-full">
             <h3 className="font-bold">LANGUAGES</h3>
-            <label className="block text-left">Ruby</label>
-            <div className="progress">
-              <span className="progress-bar" style={{width: 70+"%"}}></span>
-            </div>
             <label className="block text-left">JS (ES5/ES6)</label>
             <div className="progress">
               <span className="progress-bar" style={{width: 80+"%"}}></span>
+            </div>
+            <label className="block text-left">Ruby</label>
+            <div className="progress">
+              <span className="progress-bar" style={{width: 70+"%"}}></span>
             </div>
             <label className="block text-left">HTML 5 / CSS 3 / SCSS</label>
             <div className="progress">
