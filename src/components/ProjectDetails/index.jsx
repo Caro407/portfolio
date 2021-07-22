@@ -35,10 +35,10 @@ const ProjectDetails = (props) => {
         <h2 className="font-bold text-3xl m-1 uppercase">Useful Links</h2>
         <div className="divider m-auto w-64 h-1 mb-3"></div>
         <div className="section-div mx-auto">
-          {props.project.website_link ? <a href={props.project.website_link} className="my-3 hover:underline">{`Visit ${props.project.title}'s website here`}</a> : <p>This website doesn't have a link yet.</p>}
+          {props.project.website_link ? <a href={props.project.website_link} target="blank" className="my-3 hover:underline">{`Visit ${props.project.title}'s website here`}</a> : <p>This website doesn't have a link yet.</p>}
           {props.project.github ? <div>
             <p>or view code on GitHub here : </p>
-            {props.project.github.map((github, index) => <a key={`${props.project.slug}-github${index}`} href={github.link} className="hover:underline mx-2">{github.role}</a>)}
+            {props.project.github.map((github, index) => <a key={`${props.project.slug}-github${index}`} href={github.link} target="blank" className="hover:underline mx-2">{github.role}</a>)}
           </div> : <p></p>}
         </div>
       </section>

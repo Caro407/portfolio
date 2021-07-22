@@ -10,7 +10,7 @@ const ContactForm = () => {
       <div className="block my-1 h-1/4">
         <textarea name="body" placeholder="Say hello !" cols="50" rows="4" className="w-4/5 px-2 rounded-sm h-full"></textarea>
       </div>
-      <button type="submit" className="sendBtn">Send</button>
+      <button type="submit" className="sendBtn">Email me</button>
     </form>
   )
 };

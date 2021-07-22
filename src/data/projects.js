@@ -51,8 +51,8 @@ const projects = [
   {
     title: "Ousia",
     slug: "ousia",
-    pitch: "Marketplace for a new alcohol-free cocktails startup.",
-    description: "Ousia was a 2 weeks project, in a 4 members team. Ousia is a real starting business, which had just ended their Ulule campaign and needed a website to start receive orders. We chose Next.js framework to improve their SEO.",
+    pitch: "Marketplace for a new alcohol-free cocktails startup with a blog and a stores map.",
+    description: "Ousia was a 2 weeks project, in a 4 members team. Ousia is a real starting business, which had just ended their Ulule campaign and needed a website to start receiving orders. We chose Next.js framework to improve their SEO and used a headless CMS to create them a blog.",
     image: "https://portfolio-cl.s3.eu-west-3.amazonaws.com/ousia-1.png",
     github: [
       {
@@ -66,7 +66,7 @@ const projects = [
     website_link: "https://ousia-front.herokuapp.com",
     duration: 14,
     members: 4,
-    technos: ["Next.js", "Rails API", "tailwind"],
+    technos: ["Next.js", "Rails API", "tailwind", "Prismic"],
     frameworks: [
       {
         role: "front",
@@ -75,6 +75,10 @@ const projects = [
       {
         role: "back",
         name: "Rails API"
+      },
+      {
+        role: "cms",
+        name: "Prismic"
       },
       {
         role: "css",

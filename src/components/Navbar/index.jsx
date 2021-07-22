@@ -7,8 +7,8 @@ const Navbar = () => {
       <div className="flex justify-between">
         <Link to="/" className="font-bold text-xl mx-2">Caroline Lefevre</Link>
         <div>
-          <a href="https://www.linkedin.com/in/caroline-lefevre-a2512794/" className="mx-1 hover:underline">LinkedIn</a>
-          <a href="https://github.com/Caro407" className="mx-1 hover:underline">GitHub</a>
+          <a href="https://www.linkedin.com/in/caroline-lefevre-a2512794/" target="blank" className="mx-1 hover:underline">LinkedIn</a>
+          <a href="https://github.com/Caro407" target="blank" className="mx-1 hover:underline">GitHub</a>
         </div>
       </div>
     </nav>
