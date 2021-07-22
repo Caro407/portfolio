@@ -8,7 +8,7 @@ const Projects = () => {
       <h2 className="font-bold text-3xl m-1">PROJECTS</h2>
       <div className="divider m-auto w-64 h-1 mb-3"></div>
       <div className="section-div">
-        <div className="grid grid-cols-2 mt-3">
+        <div className="grid lg:grid-cols-2 grid-cols-1 mt-3">
           {projects.map((project, index) => <ProjectPreview project={project} key={`project-${index}`}/>)}
         </div>
       </div>

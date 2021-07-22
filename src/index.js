@@ -7,6 +7,7 @@ import {
   Switch,
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Alert from './components/Alert';
 import Footer from './components/Footer';
 import Presentation from './pages/sections/Presentation';
 import Skills from './pages/sections/Skills';
@@ -20,6 +21,7 @@ const App = () => {
     <>
       <Router>
         <Navbar/>
+        <Alert />
           <Switch>
             <Route path="/about">
               <Presentation />
