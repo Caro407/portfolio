@@ -140,8 +140,14 @@ const projects = [
     ],
     details: [
       {
-        insight: "A SPA build from scratch"
-      }
+        insight: "A SPA build from scratch using JS Vanilla."
+      },
+      {
+        insight: "Extensive search query with an external API (RAWG)."
+      },
+      {
+        insight: "Pixel Perfect integration of given visuals."
+      },
     ]
   },
   {

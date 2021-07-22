@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectDetails = (props) => {
   return (
     <div className="min-height">
+      <div className="text-left">
+        <Link to="/" className="border bg-gray-500 text-white rounded py-2 px-2 focus:outline-none">Back</Link>
+      </div>
       <h2 className="font-bold text-3xl my-3 uppercase">{props.project.title}</h2>
       <div className="divider m-auto w-64 h-1 mb-3"></div>
         <div className="mb-3">
@@ -15,7 +19,7 @@ const ProjectDetails = (props) => {
         </div>
       <p className="py-2 my-4 section-div mx-auto">{props.project.description}</p>
 
-      {props.project.image ? <img src={props.project.image} alt={`${props.project.slug}`} border="0" /> : <p>Website currently in development. Updates will be made soon.</p>}
+      {props.project.image ? <img src={props.project.image} alt={`${props.project.slug}`} border="0" className="filter drop-shadow-md" /> : <p>Website currently in development. Updates will be made soon.</p>}
 
       <section className="my-4 mx-auto">
         <h2 className="font-bold text-3xl m-1 uppercase">Insights</h2>
