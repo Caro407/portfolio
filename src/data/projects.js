@@ -173,8 +173,6 @@ const projects = [
         role: "css",
         name: "Bulma"
       }
-    ],
-    details: [
     ]
   }
 ];
