@@ -6,7 +6,11 @@ const projects = [
     description: "Get A Band was a 2 weeks project, in a 4 members team. Driven by the will of simplify a wedding's organization, we wanted to create a website where any couple can search for an artist according to their criterias; but also where artists could manage their calendar and exchange whith their clients.",
     image: "https://portfolio-cl.s3.eu-west-3.amazonaws.com/gab-1.png",
     duration: 14,
-    github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
+    github: [
+      {
+        link: "https://github.com/Caro407/THP_Get_A_Band_Final_Project",
+        role: "fullstack on RoR"
+      }],
     website_link: "https://get-a-band.herokuapp.com/",
     members: 4,
     technos: ["Rails", "bootstrap"],
@@ -50,7 +54,15 @@ const projects = [
     pitch: "Marketplace for a new alcohol-free cocktails startup.",
     description: "Ousia was a 2 weeks project, in a 4 members team. Ousia is a real starting business, which had just ended their Ulule campaign and needed a website to start receive orders. We chose Next.js framework to improve their SEO.",
     image: "https://portfolio-cl.s3.eu-west-3.amazonaws.com/ousia-1.png",
-    github: ["https://github.com/EmmanuelQuere/Ousia-front/tree/MVP", "https://github.com/EmmanuelQuere/Ousia-back/tree/MVP"],
+    github: [
+      {
+        link: "https://github.com/EmmanuelQuere/Ousia-front/tree/MVP",
+        role: "front"
+      },
+      {
+        link: "https://github.com/EmmanuelQuere/Ousia-back/tree/MVP",
+        role: "back"
+      }],
     website_link: "https://ousia-front.herokuapp.com",
     duration: 14,
     members: 4,
@@ -100,7 +112,11 @@ const projects = [
     description: "The Hyper Program was a solo - 3 days project, to create a working single-page application in a rush which was able to query an external API.",
     image: "https://portfolio-cl.s3.eu-west-3.amazonaws.com/thp-1.png",
     duration: 3,
-    github: ["https://github.com/Caro407/SPA_Proj"],
+    github: [
+      {
+        link: "https://github.com/Caro407/SPA_Proj",
+        role: "back"
+      }],
     website_link: "https://caro407.github.io/SPA_Proj/",
     members: 1,
     technos: ["JS", "bootstrap"],
@@ -130,7 +146,11 @@ const projects = [
     pitch: "Website to look for new games and be updated with last tendances.",
     description: "",
     image: "",
-    github: ["https://github.com/Caro407/THP_Get_A_Band_Final_Project"],
+    github: [
+      {
+        link: "https://github.com/Caro407/SPA_Proj",
+        role: "back"
+      }],
     website_link: "",
     duration: 14,
     members: 4,
